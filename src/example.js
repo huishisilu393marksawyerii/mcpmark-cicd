@@ -1,5 +1,5 @@
-const unusedVar = "test";
-console.log("Hello world");
 function example() {
-  return "double quotes"
+  const message = 'Hello world';
+  console.log(message);
+  return 'single quotes';
 }
